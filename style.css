@@ -1,60 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bungee+Spice&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Platypi:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+<!DOCTYPE html>
+<html>
 
-div {
-  width: 300px;
-  height:400px;
-  background-image: url(https://w0.peakpx.com/wallpaper/355/120/HD-wallpaper-champions-league-icio-uefa-champions-league.jpg);
-  background-size: cover;
-  margin: 0 auto;
-  border-radius: 20px;
-  box-shadow: 0px 0px 10px 6px Gray; 
-/*   padding:20px; */
-}
-h1,h2,h3{
-    color: #ffffff;
-    text-align: center;
-    font-family: monospace;
-    font-size: 23px;
-    padding-top: 10px;
-}
-#Para{
-  color: rgb(0, 0, 0);
-    text-align: center;
-    padding-top: 0px;
-    background-color: lightblue;
-    box-shadow: 0px 4px 4px white;
-}
-button {
-  position: relative;
-    left: 80px;
-    box-shadow: 2px 2px 2px orange;
-    background-color:yellow;
-    width: 150px;
-    height: 30px;
-    font-family: "Roboto", sans-serif;
-    border-radius: 20px;   
-}
-.Para1{
-   position: relative;
-    left: 140px;
-}
-.Para2{
-    position: relative;
-    bottom: 35px;
-    left: 5px;    
-}
-img {
-  width: 60px;
-  height: 60px;
-}
+<head>
+    <script src="https://kit.fontawesome.com/f6aa83e46f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
 
-#App1{
-    position:relative;
-    left: 120px;
-    top: 10px;
-}
+<body>
+    <div>
+        <img src="https://dsp.org.bt/assets/cms/img/dsp-logo.png" id="App1"/>
+        <h1 id="dsp">DSP YOUNGPHULA</h1>
+        <h1><i class="fa-solid fa-futbol" style="color: #FFD43B;"></i>FOOTBALL TOURNAMENT<i class="fa-solid fa-futbol" style="color: #FFD43B;"></i></h1>
+        <h2>2024</h2>
+        
+        <p id="Para">"I may win and I may lose, but I will never be defeated." </p>
+        <button>Entry Fee: Nu.1000</button>
+        
+            <p id="para5"class="Para1"> <i class="fa-solid fa-location-dot" style="color: #e81111;"></i> DSP Football Ground</p>
+        <p id="para6" class="Para2"><i class="fa-solid fa-calendar-days" style="color: #FFD43B;"></i></i> 27/Saturday</p>
+      
+    </div>  
 
 
+    
+    <script type="text/javascript" src="script.js"></script>
+</body>
 
-
-
+</html>
